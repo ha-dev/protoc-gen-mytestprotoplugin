@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package mytest;
+
+option go_package = ".;mytest";
+
+message Message {
+    string data = 1;
+}
