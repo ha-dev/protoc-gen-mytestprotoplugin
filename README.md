@@ -6,6 +6,8 @@ Writing a protoc plugin
 
 Your compiler name must be prefixed with protoc-gen- e.g. proto-gen-mytestprotoplugin
 
+# Run This Command
+
 ```bash
 mkdir out
 ```
