@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-
+    
 	input, _ := ioutil.ReadAll(os.Stdin)
 	var req pluginpb.CodeGeneratorRequest
 	proto.Unmarshal(input, &req)
